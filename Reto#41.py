@@ -188,7 +188,7 @@ question_messages = [
 ]
 ghost_message = """👻: ¿A dónde vas tan rápido, acaso no te has dado cuenta que la habitación está gobernada por mí? ¿CÓMO QUE QUIÉN SOY YO? Soy el fantasma de Maria Carey y vengo a atormentarte 
 hasta el 15 de enero. Contento me tienes... Si quieres que te deje avanzar debes responder a esta fantasmagórica pregunta: \n"""
-candy_room_message = """🧛‍♂️: ¡Vaya! Parece que has encontrado la habitación de los caramelos y podrás salir... """
+candy_room_message = """🧛‍♂️: VAYA! Has encontrado la habitación de los caramelos 🍭 y podrás salir. Esta vez te me escapas... Pero vuelve cuando quieras. Este humilde servidor, Lestat, te estára esperando """
 wrong_answer_message = """🧛‍♂️: MUAHAHAHAHA! Has perdido. Ahora serás presa de está mansión para siempre y me acompañarás guiando a otros insensatos como tú
 🧑🏽: ¿Pero... Enserio? ¿Para toda la eternidad?
 🧛‍♂️: Así es. A ver ese cuello muchacho llevo mucho tiempo sediento de sangre"""
@@ -287,4 +287,12 @@ while current_position != candy_room:
 os.system('cls')
 print_real_haunted_house()
 print(candy_room_message)
-print("Enhorabuena!! has llegado a la habitación dulce y puedes salir de la mansión. Feliz Halloween!")
+print("""
+### ###  ### ###  ####       ####   ### ##            ###  ##    ##     ####     ####      ## ##   ##   ##  ### ###  ### ###  ###  ##
+ ##  ##   ##  ##   ##         ##    ##  ##             ##  ##     ##     ##       ##      ##   ##  ##   ##   ##  ##   ##  ##    ## ##
+ ##       ##       ##         ##       ##              ##  ##   ## ##    ##       ##      ##   ##  ##   ##   ##       ##       # ## #
+ ## ##    ## ##    ##         ##      ##               ## ###   ##  ##   ##       ##      ##   ##  ## # ##   ## ##    ## ##    ## ##
+ ##       ##       ##         ##     ##                ##  ##   ## ###   ##       ##      ##   ##  # ### #   ##       ##       ##  ##
+ ##       ##  ##   ##  ##     ##    ##  ##             ##  ##   ##  ##   ##  ##   ##  ##  ##   ##   ## ##    ##  ##   ##  ##   ##  ##
+####     ### ###  ### ###    ####   # ####            ###  ##  ###  ##  ### ###  ### ###   ## ##   ##   ##  ### ###  ### ###  ###  ##
+""")
